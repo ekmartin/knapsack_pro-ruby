@@ -17,7 +17,7 @@ module KnapsackPro
       def initialize(_output)
         @output = StringIO.new
         @time_each = nil
-        @time_all = nil
+        @time_all = 0.0
         @before_all = 0.0
         @group = {}
         @paths = {}
